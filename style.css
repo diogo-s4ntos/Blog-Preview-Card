@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+}
+
+main{
+    width: calc(100% - 2rem);
+    min-height: 100lvh;
+    padding: 0rem 1rem;
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card{
+    width: 23rem;
+    max-width: calc(100% - 2rem);
+    padding: 1rem;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 15px;
+    box-shadow: 8px 8px 0px var(--black);
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#illustration{
+    border-radius: 15px;
+}
+
+#learning{
+    display: flex;
+}
+
+#learning p{
+    padding: .4rem .8rem;
+    margin-top: .6rem;
+    color: var(--black);
+    font-weight: 800;
+    background-color: var(--yellow);
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 1.7em;
+    white-space: nowrap;
+}
+
+#text{
+    font-size: 1.05em;
+    font-weight: 600;
+    color: var(--grey);
+}
+
+#people{
+    margin-top: .5rem;
+    font-size: .9em;
+    font-weight: 800;
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+}
+
+#people img{
+    width: 2rem;
+}
+
+@media screen and (max-width: 376px){
+    h2{
+        font-size: 1.4em;
+    }
+
+    #text{
+        font-size: .9em;
+    }
+}
